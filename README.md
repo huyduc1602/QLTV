@@ -61,7 +61,6 @@ If GUI doesn't appear:
 - Restart XQuartz
 - Check DISPLAY environment variable
 - Verify X11 forwarding is working
-================
 
 # Original Setup Steps (Legacy)
 1. Run SQL file to create database
