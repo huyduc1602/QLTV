@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  java-swing-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./src:/app/src
+    ports:
+      - "8080:8080"
+    environment:
+      - DISPLAY=${DISPLAY}
+    network_mode: "host"
