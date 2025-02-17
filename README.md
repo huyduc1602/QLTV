@@ -68,3 +68,20 @@ If GUI doesn't appear:
 3. Update database connection in ConnectDao class
 4. Add Jasper Reports plugins for printing functionality
 5. Run the application
+
+## Quick Start
+-------------
+
+To quickly run the application, you can use the provided `run.sh` script.
+
+### How to Run
+
+1. Open a terminal and navigate to the project directory
+2. Run the command `./run.sh`
+
+The `run.sh` script will automatically install and run the application for you.
+
+### Note
+
+* The `run.sh` script only works on Linux and macOS operating systems.
+* The `run.sh` script installs and runs the application using the `npm install` and `npm start` commands.
